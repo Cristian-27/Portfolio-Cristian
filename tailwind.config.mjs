@@ -4,7 +4,7 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage:{
-				"background": "url('src/assets/background.svg')",
+				"background": "url('/public/background.svg')",
 			},
 			fontFamily:{
 				'raleway': ['Raleway','Roboto','sans-serif'],
