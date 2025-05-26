@@ -1,0 +1,75 @@
+---
+import AstroIcon from "../assets/icons/astroIcon.astro";
+import CssIcon from "../assets/icons/cssIcon.astro";
+import HtmlIcon from "../assets/icons/htmlIcon.astro";
+import ReactIcon from "../assets/icons/reactIcon.astro";
+import JavascriptIcon from "../assets/icons/javascriptIcon.astro";
+import MysqlIcon from "../assets/icons/mysqlIcon.astro";
+import PythonIcon from "../assets/icons/pythonIcon.astro";
+import GitIcon from "../assets/icons/gitIcon.astro";
+import GithubIcon from "../assets/icons/githubIcon.astro";
+import PnpmIcon from "../assets/icons/pnpmIcon.astro";
+import TailwindIcon from "../assets/icons/tailwindIcon.astro";
+import TypescriptIcon from "../assets/icons/typescriptIcon.astro";
+import VisualIcon from "../assets/icons/visualIcon.astro";
+import IconScroller from "../components/IconScroller.tsx";
+---
+<div class="grid grid-cols-1 md:grid-cols-[auto_1fr] overflow-hidden mt-5 mx-auto max-w-auto">
+    <div class="grid row-span-2 justify-center">
+        <div class="flex flex-col flex-wrap items-center justify-start px-4 py-6 sm:px-8 sm:py-8 md:px-20 md:py-10 mt-8 md:mt-20 w-auto rounded-xl bg-[#1D497A] bg-opacity-80">
+            <div class="flex flex-col flex-wrap items-center h-auto">
+                <img src="src/assets/fotoCristian.jpg" class="w-32 h-32 sm:w-40 sm:h-40 md:w-56 md:h-56 lg:w-64 lg:h-64 mb-2 rounded-2xl object-cover object-[0%_15%] mx-auto shadow-lg border-4 border-[#1D497A]" alt="Foto Personal"/>                
+                <h2 class="font-raleway text-stone-100 font-bold text-3xl my-2 mx-5">Cristian Salazar</h2>
+                <div class="flex flex-col justify-center gap-4">
+                    <a href="https://www.linkedin.com/in/crsalazarc" target="_blank" class="bg-[#0077B5] text-white font-semibold py-2 px-4 rounded-lg hover:bg-[#005983] transition-colors flex items-center space-x-2">
+                        <svg class="w-5 h-5 fill-white" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.75v2.4h.07c.66-1.25 2.28-2.57 4.7-2.57 5.03 0 5.95 3.3 5.95 7.58V24h-5v-7.75c0-1.85-.03-4.24-2.58-4.24-2.6 0-3 2.04-3 4.13V24h-5V8z"/>
+                        </svg>
+                        <span>LinkedIn</span>
+                    </a>
+                    </button>
+                    <a href="https://github.com/Cristian-27" target="_blank" class="bg-gray-900 text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors flex items-center space-x-2">
+                        <svg class="w-5 h-5 fill-white" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.11.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.386-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.085 1.84 1.238 1.84 1.238 1.07 1.835 2.807 1.305 3.492.997.11-.775.418-1.305.76-1.605-2.665-.3-5.467-1.335-5.467-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23a11.5 11.5 0 013-.405c1.02.005 2.045.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.625-5.49 5.92.43.37.81 1.096.81 2.21 0 1.6-.015 2.89-.015 3.29 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="/src/assets/CV_CristianSalazar_2025_Marzo.pdf" target="_blank" class="bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition-colors flex items-center space-x-2">
+                        <svg class="w-5 h-5 fill-white" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 16l4-5h-3V4h-2v7H8l4 5zM5 18h14v2H5z"/>
+                        </svg>
+                        <span>Descargar CV</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="flex flex-col flex-wrap row-span-2 justify-evenly items-center bg-[#1D497A] bg-opacity-80 mt-6 md:mt-20 ml-0 md:ml-10 pt-3 px-4 md:px-10 rounded-2xl w-auto ">
+    <h1 class="font-mono text-stone-100 font-bold text-4xl text-center">Sobre mí</h1>
+    <h2 class="font-raleway text-stone-100 font-bold text-2xl text-center underline">Desarrollador web</h2>
+    <p class="font-raleway text-stone-100 font-bold text-center md:text-left text-lg mb-5 max-w-3xl overflow-hidden leading-8">
+        Ingeniero en informática enfocado principalmente en el desarrollo web desde el lado del frontend y backend.
+    </p>
+    <p class="font-raleway text-stone-100 font-bold text-center md:text-left text-lg mb-5 max-w-3xl overflow-hidden leading-8">
+        Experiencia principalmente orientada en el desarrollo de aplicaciones web, mejorando constantemente y manteniendome al día con las últimas tecnologías y tendencias de este mismo.
+    </p>
+    <div class="flex flex-col items-center flex-wrap w-full">
+        <h2 class="text-white text-2xl font-mono font-bold mb-10 text-center"> Lenguajes y herramientas</h2>
+        <IconScroller client:load>
+            <AstroIcon />
+            <HtmlIcon />
+            <CssIcon />
+            <ReactIcon />
+            <JavascriptIcon />
+            <MysqlIcon />
+            <PythonIcon />
+            <GitIcon />
+            <GithubIcon />
+            <PnpmIcon />
+            <TailwindIcon />
+            <TypescriptIcon />
+            <VisualIcon />
+        </IconScroller>
+    </div>
+</div>
+</div>
